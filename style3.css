@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+html {
+      margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #626668;
+
+
+}
+
+
+.bgimg{
+	background-image:url("front.jpeg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height:500px;
+	/*animation: slider 30s infinite linear;*/
+}
+/*
+    @keyframes slider{
+    	0%{background-image:url("front.jpeg");}
+
+    	35%{background-image:url("cover.jpeg");}
+
+    	75%{background-image:url("cover2.jpeg");}
+
+    }*/
+
+ .headerset{
+	padding-top: 200px;
+	box-sizing:border-box;
+	font-size: 80px
+
+}
+.headerset h1{
+
+	font-size:10px;
+	font-weight:bold;
+	
+	
+}
+.hero-img {
+    /*    padding-top:100px;*/
+    margin: 100px -40px;
+    width: 100%;
+}
+
+#hero-left {
+    max-width: 550px;
+}
+
+section {
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+    background: white;
+}
+
+#hero-text-container {
+    font-family: 'Nunito', sans-serif !important;
+    color: black;
+    margin: 240px 30px;
+}
+
+#hero-text-container h1 {
+    color: #4285f4;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#hero-description {
+    padding-top: 30px;
+    text-align: justify;
+}
+
+
+#wrapper {
+ 
+    background: white;
+   
+    padding-left: 120px;
+    width: 102vw;
+}
+
+
+@media (max-width: 550px) {
+  .main {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+.card1 {
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  max-height: 80%;
+}
+.card1 .card-body {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px;
+}
+.card1 header {
+  flex: 100%;
+}
+.card1 .meta {
+  margin-bottom: 22px;
+}
+
+.card1 .featured-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+  .card1 {
+    flex-direction: row;
+    max-height: 279px;
+  }
+  .card1 h3 {
+    font-size: calc(100% + 1vw);
+  }
+  .card1 .featured-image {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    max-width: 310px;
+    max-height: 277px;
+    width: 100%;
+    border: 0;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .card1 h3 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+
+
+
+.card-body .meta {
+  color: #555;
+  font-size: 16px;
+}
+
+.card-body .author {
+  font-size: 15px;
+
+}
+
+.card-body h3{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.main ul {
+  display: block;
+  margin: 30px;
+  max-width: 1050px;
+  padding: 30px;
+}
+
+.main a {
+  text-decoration: none;
+}
