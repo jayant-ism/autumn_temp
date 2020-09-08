@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html>
+<style>
+  
+body {
+  width : 100% ;
+  height:  100% ; 
+  background-color:  blueviolet;
+  
+}
+
+#animate {
+  right:0% ;
+  width: 20% ; 
+  
+  height: 100%;
+  position: absolute;
+  background-color: red;
+}
+
+.grid_container{
+
+ display: none;
+
+}
+</style>
+<body>
+
+
+  <div id ="animate">
+
+    
+<button onclick="myMove()" style="
+top:50% ;
+right:0%; 
+background-color:blueviolet ;
+position: absolute;  
+
+
+" id="but" >Click Me</button>
+
+
+
+
+
+<div class="grid_container" id="rev-but" >
+  
+<div>
+     
+<button onclick="rev_myMove()" style="
+top:50% ;
+left:0%; 
+background-color:blueviolet ;
+position: fixed; 
+
+
+"  >Click Me</button>
+
+
+
+</div>
+  
+  <div>
+    
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+    <div style="background-color: brown;">
+
+      <!-- content of the box -->
+      ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+
+<br>
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+ABOUT US 
+
+<br>
+
+    </div>
+
+
+    <div style="background-color: cadetblue;" >
+      OUR SERVICES 
+      OUR SERVICES 
+      OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>  OUR SERVICES 
+      
+<br>
+
+
+    </div>
+
+  </div>
+  
+
+</div>
+  </div>
+
+
+  
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 80;
+  var id = setInterval(frame);
+  function frame() {
+    if (pos == 0) {
+      clearInterval(id);
+    } else {
+      pos--; 
+      
+      elem.style.left = pos+"%"   ; 
+      elem.style.width =100- pos+"%" ; 
+    }
+  }
+
+  var ds = document.getElementById("but") ; 
+  ds.style.display = "none" ; 
+  ds =document.getElementById("rev-but") ; 
+  ds.style.display ="inline" ;  
+
+
+  
+
+
+
+}
+
+
+
+
+
+function rev_myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame);
+  function frame() {
+    if (pos == 80) {
+      clearInterval(id);
+    } else {
+      pos++ 
+      
+      elem.style.left = pos+"%"   ; 
+      elem.style.width =100- pos+"%" ; 
+    }
+  }
+
+  var ds = document.getElementById("but") ; 
+  ds.style.display = "block"  ;
+  ds =document.getElementById("rev-but") ; 
+
+
+  
+   ds.style.display = "none"  ; 
+
+
+
+}
+
+
+
+</script>
+
+</body>
+</html>
